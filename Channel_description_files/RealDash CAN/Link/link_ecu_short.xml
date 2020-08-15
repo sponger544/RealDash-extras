@@ -4,7 +4,7 @@
   <frames baseId="1000">
     <frame id="0" endianess="big">
       <value targetId="37" offset="0" length="2"></value> <!-- RPM -->
-      <value targetId="31" offset="2" length="2" conversion="V-100"></value> <!-- MAP -->
+      <value targetId="31" offset="2" length="2"></value> <!-- MAP -->
       <value targetId="14" offset="4" length="1" conversion="V-50"></value> <!-- CLT -->
       <value targetId="27" offset="5" length="1" conversion="V-50"></value> <!-- IAT -->
       <value targetId="12" offset="6" length="1" conversion="V*0.1"></value> <!-- battery voltage -->
@@ -37,4 +37,3 @@
     </frame>
   </frames>
 </RealDashCAN>
-
